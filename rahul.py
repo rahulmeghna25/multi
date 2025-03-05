@@ -34,9 +34,9 @@ def generate_config_file():
     default_config = {
         "VPS_LIST": [
             {
-                "ip": "172.232.206.11",  # Replace with your default VPS IP
-                "user": "master_kuduednmtp",       # Replace with your default VPS username
-                "password": "UKVMrmqKMUn3",  # Replace with your default VPS password
+                "ip": "172.232.132.246",  # Replace with your default VPS IP
+                "user": "master_dzxcjruhqw",       # Replace with your default VPS username
+                "password": "rXwj7VhPJ3Az",  # Replace with your default VPS password
                 "busy": False  # Initialize as not busy
             }
         ]
